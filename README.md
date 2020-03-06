@@ -1,6 +1,6 @@
 # SLEIPNIR
 Implementation of SLEIPNIR in python 3, based on the paper "SLEIPNIR: Deterministic and Provably Accurate Feature Expansion for
-Gaussian Process Regression with Derivatives" by Emmanouil Angelis, Philippe Wenk, Stephan Bauer, Bernhard Schölkopf, Andreas Krause.
+Gaussian Process Regression with Derivatives" by Emmanouil Angelis, Philippe Wenk, Bernhard Schölkopf, Stefan Bauer, Andreas Krause. This code is based on https://github.com/Mojusko/QFF (published alongside https://papers.nips.cc/paper/8115-efficient-high-dimensional-bayesian-optimization-with-additivity-and-quadrature-fourier-features) as well as on https://github.com/gabb7/ODIN (published alongside https://arxiv.org/abs/1902.06278) .If you use this code, please consider citing our publication (https://arxiv.org/abs/2003.02658).
 
 ## Out of the Box Experiments
 Currently, there are six experiments implemented that should run out of the box. In order to run an experiment, three stages are required:
